@@ -1,0 +1,23 @@
+[tool]
+name = "linkprobe"
+version = "1.0.0"
+description = "Remote MCP service that performs real server-side HTTP checks of public URLs and returns reachability, redirects, latency, DNS, title, HTTPS state, and common blocking signals. Private and local network targets are rejected."
+author = "moelayyan90"
+homepage = "https://linkprobe-qj1j3n.v2.appdeploy.ai/"
+
+[binary]
+entry = "remote-mcp"
+platforms = ["remote"]
+
+[permissions]
+filesystem = []
+network = ["https://linkprobe-qj1j3n.v2.appdeploy.ai"]
+allow_exec = false
+
+[distribution]
+binary_url = "https://linkprobe-qj1j3n.v2.appdeploy.ai/mcp"
+sha512 = ""
+
+[[mcp.tools]]
+name = "check_public_link"
+description = "Perform a real server-side HTTP check of a public URL and return reachability, redirect chain, latency, DNS addresses, page title, HTTPS state, and common blocking signals."
