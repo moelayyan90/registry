@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.moelayyan90/linkprobe",
+  "title": "LinkProbe 外链真测",
+  "description": "Real server-side checks for public URLs: reachability, redirects, latency, DNS, HTTPS, page title and common blocking signals. Private and local network targets are rejected.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://linkprobe-qj1j3n.v2.appdeploy.ai/mcp"
+    }
+  ]
+}
