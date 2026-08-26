@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.moelayyan90/checkouttruth",
   "title": "CheckoutTruth",
-  "description": "Evidence-backed product verification for shopping agents. Checks a public product URL and returns current price, currency, availability, variants, published shipping evidence, confidence, and explicit unknowns instead of inventing checkout facts.",
+  "description": "Verify live product price, currency, stock, variants and published shipping evidence for AI agents.",
   "version": "0.1.0",
   "remotes": [
     {
