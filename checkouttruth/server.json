@@ -3,7 +3,7 @@
   "name": "io.github.moelayyan90/checkouttruth",
   "title": "CheckoutTruth",
   "description": "Verify live product price, currency, stock, variants and published shipping evidence for AI agents.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "remotes": [
     {
       "type": "streamable-http",
